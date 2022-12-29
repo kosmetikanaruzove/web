@@ -90,7 +90,7 @@ aside {
             > a:focus {
                 text-transform: uppercase;
                 font-weight: 700;
-                font-size: 13px;
+                font-size: 20px;
                 color: $theme-dark;
                 &:hover {
                     color: $theme-primary;
@@ -112,7 +112,7 @@ aside {
         background-color: transparent;
         border-color: rgba(white, .3);
         .navbar-header .navbar-brand {
-            color: rgba(white, .7);
+            color: #82594e;
             &:hover,
             &:focus {
                 color: white;
@@ -120,7 +120,7 @@ aside {
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(white, .7);
+            color: rgba(white, 1);
             &:hover {
                 color: white;
             }
@@ -259,11 +259,11 @@ header {
             }
         }
     }
-    &:hover {
-        .portfolio-box-caption {
-            opacity: 1;
-        }
-    }
+    // &:hover {
+    //     .portfolio-box-caption {
+    //         opacity: 1;
+    //     }
+    // }
     @media (min-width: 768px) {
         .portfolio-box-caption {
             .portfolio-box-caption-content {
