@@ -112,7 +112,8 @@ aside {
         background-color: transparent;
         border-color: rgba(white, .3);
         .navbar-header .navbar-brand {
-            color: #82594e;
+            // color: #82594e;
+            color: white;
             &:hover,
             &:focus {
                 color: white;
@@ -120,7 +121,8 @@ aside {
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(white, 1);
+            // color: rgba(white, 1);
+            color: #82594e;
             &:hover {
                 color: white;
             }
@@ -155,7 +157,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header-new.jpeg');
+    background-image: url('../img/portfolio/11.jpg');
     text-align: center;
     color: white;
     .header-content {
