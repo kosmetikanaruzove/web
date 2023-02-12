@@ -59,6 +59,10 @@ section {
     padding: 100px 0;
 }
 
+#cta-inner-phone {
+    color: rgba(white, .7);
+}
+
 aside {
     padding: 50px 0;
 }
@@ -177,7 +181,7 @@ header {
             }
             p {
                 font-weight: 300;
-                color: rgba(white, .7);
+                color: rgba(white, 1);
                 font-size: 16px;
                 margin-bottom: 50px;
             }
