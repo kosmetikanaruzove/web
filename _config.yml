@@ -1,12 +1,14 @@
 # Site settings
-title: Kosmetika na Růžové
+title: Kosmetika na Růžové - Kvalitní kosmetika v Kyjově
 email: paulikovam@seznam.cz
 phone: +420 732 746 265
 description: Kosmetika na Růžové > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://kosmetikanaruzove.cz" # the base hostname & protocol for your site
+plugins:
+  - jekyll-sitemap
 
-facebook_username: Kosmetika na Růžové
+facebook_username: Kosmetika na Růžové v Kyjově
 
 # Build settings
 markdown: kramdown
