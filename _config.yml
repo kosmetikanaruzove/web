@@ -10,5 +10,8 @@ plugins:
 
 facebook_username: Kosmetika na Růžové v Kyjově
 
+include:
+  - vouchers.html
+
 # Build settings
 markdown: kramdown
