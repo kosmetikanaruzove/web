@@ -4,7 +4,15 @@
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading">O mně</h2>
                 <hr class="primary">
-                <p>Jsem Markéta Paulíková a mám 30 let zkušeností v oboru kosmetiky. Ukončila jsem čtyřletý obor kosmetička ve Vizovicích a následně jsem pracovala v salonu v Hodoníně. Poté jsem si založila svůj vlastní kosmetický salon v Kyjově. Snažím se neustále rozvíjet své znalosti a dovednosti tím, že absolvuji různé kurzy a programy, a tak zůstat v kontaktu s aktuálními trendy v oboru kosmetiky. Pracuji pouze s tou nejlepší ošetřující kosmetikou, abych Vám poskytla tu nejlepší péči.</p>
+                <p>Jsem Markéta Paulíková a mám 30 let zkušeností v oboru kosmetiky. Ukončila jsem čtyřletý obor kosmetička ve Vizovicích a následně jsem pracovala v salonu v Hodoníně. Poté jsem si založila svůj vlastní kosmetický salon v Kyjově. Snažím se neustále rozvíjet své znalosti a dovednosti tím, že absolvuji různé kurzy a programy, a tak zůstat v kontaktu s aktuálními trendy v oboru kosmetiky. Pracuji výhradně s luxusní profesionální kosmetikou VAGHEGGI, abych Vám dopřála výjimečnou péči na nejvyšší úrovni.</p>
+                <hr class="primary">
+                <div class="logo-container">
+                    <img src="/img/vagheggi/phytomakeup.png" alt="Vagheggi Logo 1" class="vagheggi-logo">
+                    <img src="/img/vagheggi/phytocosmetici.png" alt="Vagheggi Logo 2" class="vagheggi-logo">
+                </div>
+                <a href="/vagheggi" class="btn btn-primary btn-xl wow bounceIn">
+                    Objevte VAGHEGGI kosmetiku
+                </a>
                 <hr class="primary">
             </div>
         <div class="row">
@@ -44,3 +52,39 @@
         </div>
     </div>
 </section>
+
+<style>
+    .logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    .vagheggi-logo {
+        max-height: 100px;
+        width: auto;
+    }
+    
+    .btn-primary {
+        margin: 20px 0;
+        background-color: #82594e;
+        border-color: #82594e;
+        transition: all 0.3s ease;
+    }
+    
+    .btn-primary:hover {
+        background-color: #6a4840;
+        border-color: #6a4840;
+        transform: translateY(-2px);
+    }
+
+    /* Add this media query for mobile devices */
+    @media (max-width: 768px) {
+        .logo-container {
+            flex-direction: column;
+            gap: 30px;
+        }
+    }
+</style>

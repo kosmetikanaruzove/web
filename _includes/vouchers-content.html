@@ -43,6 +43,16 @@
     </div>
 </section>
 
+<section class="bg-primary">
+    <div class="container text-center">
+        <div class="vagheggi-logo-container">
+            <a href="https://vagheggi.cz/" target="_blank" rel="noopener noreferrer" class="vagheggi-link">
+                <img src="/img/vagheggi/logo.png" alt="Vagheggi Logo" class="vagheggi-logo">
+            </a>
+        </div>
+    </div>
+</section>
+
 <section class="bg-dark">
     <div class="container text-center">
         <div class="call-to-action">
@@ -113,5 +123,31 @@
 
     #voucher-options {
         padding: 100px 0;
+    }
+
+    .vagheggi-logo-container {
+        padding: 20px;
+        display: inline-block;
+    }
+
+    .vagheggi-link {
+        display: inline-block;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .vagheggi-logo {
+        max-width: 200px;
+        height: auto;
+        margin: 0;
+        transition: transform 0.3s ease;
+        display: block;
+        background: white;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .vagheggi-link:hover .vagheggi-logo {
+        transform: scale(1.05);
     }
 </style>

@@ -12,6 +12,7 @@ facebook_username: Kosmetika na Růžové v Kyjově
 
 include:
   - vouchers.html
+  - vagheggi.html
 
 # Build settings
 markdown: kramdown
